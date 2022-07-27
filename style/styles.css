@@ -1,0 +1,39 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-image: url(../images/Pic\ BG.png);
+  background-color: black;
+  width: 1920px;
+  height: 894px;
+}
+
+nav {
+  display: flex;
+  margin: 46px 80px 0;
+  justify-content: space-between;
+}
+.shot {
+  font-family: "YoungSerif";
+  font-size: 33px;
+  color: #bc1a03;
+}
+.menu-items {
+  display: flex;
+  align-items: center;
+  font-family: "Montserrat";
+}
+.item a {
+  color: white;
+  margin-left: 50px;
+  font-size: 18px;
+}
+.item > .active {
+  text-decoration: underline;
+  text-decoration-color: rgb(188, 26, 3);
+}
+.IG {
+  margin-right: 20px;
+}

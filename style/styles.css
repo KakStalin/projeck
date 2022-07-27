@@ -1,33 +1,41 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.wrapper {
+  display: flex;
+  flex-direction: column;
 }
-body {
-  font-family: sans-serif;
-  font-size: 40px;
-  width: 100%;
-  min-height: 100vh;
+
+header {
+  background-image: url(../images/Pic\ BG.png);
+  background-color: black;
+  width: 1920px;
+  height: 894px;
 }
-[class^="box-"] {
-  background-color: skyblue;
-  display: grid;
-  place-items: center;
+
+nav {
+  display: flex;
+  width: 1760px;
+  height: 44px;
+  margin: 46px 80px 0;
+  justify-content: space-between;
 }
-.container {
-  display: grid;
-  gap: 20px;
-  grid-template-areas:
-    "A A A A   A A A A   A A A A"
-    "B B B B   B B B B   B B C C"
-    "B B B B   B B B B   B B C C";
+.shot {
+  font-family: "YoungSerif";
+  font-size: 33px;
+  color: #bc1a03;
 }
-.box-1 {
-  grid-area: A;
+.menu-items {
+  display: flex;
+  align-items: center;
+  font-family: "Montserrat";
 }
-.box-2 {
-  grid-area: B;
+.item a {
+  color: white;
+  margin-left: 50px;
+  font-size: 18px;
 }
-.box-3 {
-  grid-area: C;
+.item > .active {
+  text-decoration: underline;
+  text-decoration-color: rgb(188, 26, 3);
+}
+.IG {
+  margin-right: 20px;
 }

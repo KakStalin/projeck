@@ -7,17 +7,19 @@ header {
   background-image: url(../images/Pic\ BG.png);
   background-color: black;
   width: 1920px;
-  height: 894px;
+  height: 992px;
 }
 
 .header__items {
   display: flex;
   justify-content: space-between;
-  margin: 46px 80px 0;
+  padding: 0 80px;
+  height: 82px;
+  align-items: flex-end;
 }
 
 .container {
-  max-width: 1920px;
+  max-width: 1760px;
 }
 
 .shot {

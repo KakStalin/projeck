@@ -10,30 +10,39 @@ header {
   height: 894px;
 }
 
-nav {
+.header__items {
   display: flex;
-  margin: 46px 80px 0;
   justify-content: space-between;
+  margin: 46px 80px 0;
 }
+
+.container {
+  max-width: 1920px;
+}
+
 .shot {
   font-family: "YoungSerif";
   font-size: 33px;
   color: #bc1a03;
 }
+
 .menu-items {
   display: flex;
-  align-items: center;
   font-family: "Montserrat";
+  justify-content: space-between;
+  width: 671px;
 }
+
 .item a {
   color: white;
-  margin-left: 50px;
   font-size: 18px;
 }
 .item > .active {
   text-decoration: underline;
   text-decoration-color: rgb(188, 26, 3);
 }
-.IG {
-  margin-right: 20px;
+.header__social-networks {
+  width: 83px;
+  display: flex;
+  justify-content: space-between;
 }

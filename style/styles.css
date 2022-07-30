@@ -15,12 +15,13 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 0 80px;
-  height: 82px;
-  align-items: flex-end;
+  height: 100px;
+  align-items: center;
 }
 
 .container {
   max-width: 1760px;
+  margin: 0 auto;
 }
 
 .shot {
@@ -30,10 +31,11 @@ header {
 }
 
 .menu-items {
-  display: flex;
+  display: grid;
   font-family: "Montserrat";
-  justify-content: space-between;
-  width: 671px;
+  grid-gap: 20px;
+  grid-template-columns: repeat(6, 1fr);
+  justify-items: center;
 }
 
 .item a {
@@ -45,7 +47,7 @@ header {
   text-decoration-color: rgb(188, 26, 3);
 }
 .header__social-networks {
-  width: 83px;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
 }

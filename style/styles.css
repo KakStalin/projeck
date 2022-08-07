@@ -7,13 +7,11 @@
 header {
   background-image: url(../images/Pic\ BG.png);
   background-color: black;
-
 }
 
 .header__items {
   display: flex;
   justify-content: space-between;
-  padding: 0 80px;
   height: 100px;
   align-items: center;
 }
@@ -21,6 +19,7 @@ header {
 .container {
   max-width: 1760px;
   margin: 0 auto;
+  padding: 0 80px;
 }
 
 .shot {
@@ -53,11 +52,11 @@ header {
 
 .img1 {
   background-image: url(../images/Pic\ 01.png);
-    position: relative;
-    width: 359px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 581px;
+  position: relative;
+  width: 359px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 581px;
 }
 
 .img2 {

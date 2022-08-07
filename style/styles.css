@@ -50,3 +50,12 @@ header {
   grid-gap: 20px;
   grid-template-columns: repeat(2, 1fr);
 }
+
+
+.img1{
+  background-image: url(../images/Pic\ 01.png);
+}
+
+.img2{
+  background-image: url(../images/Pic\ 02.png);
+}

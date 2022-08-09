@@ -70,4 +70,12 @@ header {
   left: 44%;
 }
 .img3 {
+  background-image: url(../images/Pic\ 03.png);
+  position: absolute;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 576px;
+  left: 80.27%;
+  top: 34%;
 }

@@ -79,3 +79,23 @@ header {
   left: 80.27%;
   top: 34%;
 }
+.header.container {
+  display: flex;
+}
+.header__name {
+  width: 780px;
+}
+.header_name {
+  color: rgb(188, 26, 3);
+  font-family: "YoungSerif";
+  font-weight: 600;
+  font-size: 57px;
+}
+.Productions {
+  color: white;
+}
+.header_text {
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat";
+  font-size: 30px;
+}

@@ -89,13 +89,48 @@ header {
   color: rgb(188, 26, 3);
   font-family: "YoungSerif";
   font-weight: 600;
-  font-size: 57px;
+  font-size: 66px;
+  text-align: center;
+  line-height: normal;
 }
 .Productions {
   color: white;
 }
 .header_text {
   color: rgb(255, 255, 255);
+  font-size: 26px;
+  font-weight: 400;
+}
+.header_text_bottom {
+  width: 319px;
   font-family: "Montserrat";
-  font-size: 30px;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  padding-left: 40%;
+  padding-top: 10%;
+}
+
+.Book-Now,
+a:visited {
+  width: 217px;
+  height: 46px;
+  font-weight: 600;
+  color: white;
+  background: #bc1a03;
+  border-radius: 40px;
+  text-align: center;
+}
+.more-info {
+  position: absolute;
+  width: 113px;
+  height: 22px;
+  font-weight: 600;
+  color: rgb(188, 26, 3);
+}
+.btn {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: flex-end;
+  padding-top: 10%;
 }
